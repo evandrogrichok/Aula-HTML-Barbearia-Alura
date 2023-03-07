@@ -1,0 +1,63 @@
+body{
+    background: rgb(171, 136, 255);
+}
+.banner{
+    border-radius: 25px;
+}
+.renato{
+  max-width: 80%;
+ border-radius: 25px;
+    padding: 10px;  
+    background-color: rgb(162, 123, 255);
+}
+
+.brother{
+    color: #ffd270;
+}
+
+.mano{
+    color: #ffd270;
+}
+
+#missao{
+    color: #ffe2a4;
+}
+
+#missaoverdadeira{
+    color: #ffe2a4;
+    font-size: 20px;
+
+}
+
+
+.beneficios{
+    border-radius: 25px;
+    max-width: 80%;
+    background-color: rgb(162, 123, 255);
+    font-style: italic;
+    color: rgb(255, 180, 137);
+
+}
+
+.itens {
+    font-style: italic;
+}
+#titulobene {
+    font-size: 25px;
+    color: #ffa34d;
+    padding: 20px ;
+}
+
+ul{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#barba {
+    border-radius: 30px;
+    width: 40%;
+}
+
