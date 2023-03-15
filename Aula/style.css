@@ -1,6 +1,5 @@
 header{
-    background: #ff6565;    
-    border-radius: 25px;
+    background: #ff6565;
 }
 body{
     background: #ff7777;
@@ -12,7 +11,7 @@ body{
 }
 NAV{
     position: absolute;
-    top: 10px;
+    top: 110px;
     right: 0;
 }
 nav li{
@@ -25,4 +24,31 @@ nav a{
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+}
+form{
+    margin: 40px 0;
+    
+}
+#formulario{
+    font-family:'Courier New', Courier, monospace;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:  50%;
+    border-radius: 25px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
 }

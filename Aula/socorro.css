@@ -1,5 +1,39 @@
+header{
+    background: #ff6565;
+}
+NAV{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
 body{
-    background: rgb(171, 136, 255);
+    background: #ff7777;
 }
 .banner{
     border-radius: 25px;
@@ -8,7 +42,7 @@ body{
   max-width: 80%;
  border-radius: 25px;
     padding: 10px;  
-    background-color: rgb(162, 123, 255);
+    background-color: #ff6565;
 }
 
 .brother{
@@ -33,7 +67,7 @@ body{
 .beneficios{
     border-radius: 25px;
     max-width: 80%;
-    background-color: rgb(162, 123, 255);
+    background-color: #ff6565;
     font-style: italic;
     color: rgb(255, 180, 137);
 
@@ -48,7 +82,7 @@ body{
     padding: 20px ;
 }
 
-ul{
+#ul2{
     font-size: 20px;
     display: inline-block;
     vertical-align: top;
