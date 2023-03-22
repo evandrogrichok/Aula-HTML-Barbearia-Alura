@@ -20,20 +20,45 @@
     </header>
   </div>
     <main>
+      &nbsp
 <h2 id="h2">Contato</h2>
-
+      &nbsp
 <form id="formulario">
   <label for="nomesobrenome">Nome e Sobrenome</label>
 <input type="text" id="nomesobrenome" class="input-padrao" required>
 
 <label for="email">Email</label>
-<input type="email" id="email"class="input-padrao" required>
+<input type="email" id="email"class="input-padrao" required placeholder="seuemail@dominio.com">
 
 <label for="telefone">Telefone</label>
-<input type="telefone" id="telefone"class="input-padrao" required>
+<input type="telefone" id="telefone"class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 <label for="Mensagem">Mensagem</label>
 <textarea cols="70" rows="10" id="Mensagem"class="input-padrao"> </textarea>
 
+   
+        <fieldset>
+          <legend>Como prefere o nosso contato?</legend>
+          <label for= "radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp">Whatsapp</label>
+        </fieldset>  
+  &nbsp
+<fieldset>
+  <legend>Em qual horário prefere ser atendido?</legend>
+  <select>
+    <option>Manhã</option>
+        <option>Tarde</option>
+            <option>Noite</option>
+  </select>
+</fieldset>
+
+<label class="checkbox"><input type="checkbox" checked>Receber nossas novidades por email</label>
+
+<input type="submit" value="Enviar formulario" class="enviar">  
+
+
+
 </form>
+  <br><br>  
     </main>

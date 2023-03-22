@@ -1,5 +1,6 @@
 header{
-    background: #ff6565;
+    background: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 NAV{
     position: absolute;
@@ -23,17 +24,8 @@ nav a{
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
 body{
-    background: #ff7777;
+    background: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
 }
 .banner{
     border-radius: 25px;
@@ -42,7 +34,8 @@ body{
   max-width: 80%;
  border-radius: 25px;
     padding: 10px;  
-    background-color: #ff6565;
+    background-color: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .brother{
@@ -67,7 +60,8 @@ body{
 .beneficios{
     border-radius: 25px;
     max-width: 80%;
-    background-color: #ff6565;
+    background-color:linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-style: italic;
     color: rgb(255, 180, 137);
 
