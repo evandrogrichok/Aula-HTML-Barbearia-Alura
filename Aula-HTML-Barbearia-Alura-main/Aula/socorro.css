@@ -1,0 +1,91 @@
+header{
+    background: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+NAV{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+body{
+    background: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+}
+.banner{
+    border-radius: 25px;
+}
+.renato{
+  max-width: 80%;
+ border-radius: 25px;
+    padding: 10px;  
+    background-color: linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brother{
+    color: #ffd270;
+}
+
+.mano{
+    color: #ffd270;
+}
+
+#missao{
+    color: #ffe2a4;
+}
+
+#missaoverdadeira{
+    color: #ffe2a4;
+    font-size: 20px;
+
+}
+
+
+.beneficios{
+    border-radius: 25px;
+    max-width: 80%;
+    background-color:linear-gradient(308deg, rgba(255,71,99,1) 0%, rgba(255,84,84,1) 100%);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-style: italic;
+    color: rgb(255, 180, 137);
+
+}
+
+.itens {
+    font-style: italic;
+}
+#titulobene {
+    font-size: 25px;
+    color: #ffa34d;
+    padding: 20px ;
+}
+
+#ul2{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#barba {
+    border-radius: 30px;
+    width: 40%;
+}
+
